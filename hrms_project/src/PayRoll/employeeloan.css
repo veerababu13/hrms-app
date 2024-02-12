@@ -1,0 +1,36 @@
+.fdata{
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.fdata-content{
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 10px;
+    margin: 2% auto;
+    width: 50%;
+    padding: 10px;
+}
+.delete-popup {
+    position: fixed;
+    left:0;
+    top: 0;
+    z-index: 2;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.delete-popup-content{
+    width: 30%;
+    height: 30%;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    margin: 15% auto;
+    border-radius: 10px;
+}

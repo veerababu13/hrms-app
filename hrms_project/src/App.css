@@ -1,0 +1,157 @@
+.app {
+  display:flex;
+}
+*{
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+.App{
+  height: 100%;
+}
+.loginpage{
+  
+  background-color: aquamarine;
+}
+.loginimage{
+  width: 420px;
+}
+.authentication{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.three{
+  text-decoration: none;
+  display: block;
+  color: black;
+  
+ 
+}
+.four{
+  box-shadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)';
+}
+.color_div1,.color_div2,.color_div3{
+  height: 7px;
+  border-radius: 20px;
+}
+.dashboard_percentage1,.dashboard_percentage2,.dashboard_percentage3{
+  display: block;
+  height: 90%;
+}
+.color_div1{
+  border: skyblue solid 0.5px;
+  width: 90%;
+}
+.color_div2{
+  border: red solid 0.5px;
+  width: 90%;
+
+}
+.color_div3{
+  border: orange solid 0.5px;
+  width: 90%;
+
+}
+.dashboard_percentage1{
+  background-color: skyblue;
+  width: 25%;
+
+}
+.dashboard_percentage2{
+  width: 0%;
+  border: red solid 0.5px;
+}
+.dashboard_percentage3{
+  background-color: orange;
+  width: 25%;
+  border: orange solid 0.5px;
+}
+.step-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.step {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.pointer {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  background:lightgreen;
+  padding-left: 10px;
+}
+.pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.pointer:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid lightgreen;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.step.active  {
+  color: white;
+}
+label{
+  
+  display: block !important;
+}
+input{
+  width: 100%;
+  border:none ;
+  border-bottom: 1.5px solid black !important;
+}
+.five{
+  border:none ;
+  border-bottom: 1.5px solid black !important;
+}
+.employeeListTable{
+  margin : 0 auto;
+}
+.employeeListTable th{
+  background-color: rgb(68,109,109);
+  padding : 5px 20px;
+  color:whitesmoke;
+}
+.employeeListTable td{
+  text-align: center;
+  padding : 5px 10px;
+  background-color: whitesmoke;
+}
+.Employee_Imports>div{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myForm {
+  display: none;
+  max-width: 400px;
+  margin: 20px auto;
+}
+.Payslip>div{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
