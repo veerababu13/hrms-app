@@ -18,6 +18,7 @@ import AttendanceVerification from './Attendence/AttendenceVerification';
 import SalarySetup from './PayRoll/SalarySetup';
 import Payslip from './PayRoll/PaySlip';
 import EmployeeLoan from './PayRoll/EmployeeLoan';
+import RestDemo from './employees/RestDemo';
 
 
 
@@ -51,6 +52,7 @@ function App() {
       <Route path='/salary-setup' element={<SalarySetup/>}></Route>
       <Route path='/pay-slip' element={<Payslip/>}></Route>
       <Route path='/employee-loan' element={<EmployeeLoan/>}></Route>
+      <Route path='/rest-demo' element={<RestDemo/>}></Route>
      
      
       

@@ -19,6 +19,7 @@ const NoticeList = () => {
   const [deleteIndex,setDeleteIndex] = useState(null);
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
 
+  
   useEffect(() => {
     try {
       const detailsArray = JSON.parse(localStorage.getItem('formsubmission')) || [];
